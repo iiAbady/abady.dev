@@ -6,9 +6,13 @@ const config: Config = {
 		"./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
 		"./src/components/**/*.{js,ts,jsx,tsx,mdx}",
 		"./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+		"./mdx-component.tsx"
 	],
 	darkMode: "class",
 	theme: {
+		hljs: {
+			theme: 'atom-one-dark'
+		},
 		container: {
 			padding: {
 				DEFAULT: "1rem",
@@ -41,8 +45,14 @@ const config: Config = {
 			}
 		},
 	},
+	safelist: [
+		{
+			pattern: /hljs+/,
+		}
+	],
 	plugins: [
-		require("@tailwindcss/typography")
+		require("@tailwindcss/typography"),
+		require('tailwind-highlightjs')
 	],
 };
 

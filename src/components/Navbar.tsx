@@ -7,19 +7,19 @@ import { useEffect, useState } from "react";
 const navigation = [
 	{
 		text: "About",
-		link: "#"
+		link: "/#about"
 	},
 	{
 		text: "Experience",
-		link: "#"
+		link: "/#experience"
 	},
 	{
 		text: "Projects",
-		link: "#"
+		link: "/#projects"
 	},
 	{
 		text: "Blog",
-		link: "#"
+		link: "/#blog"
 	}
 ]
 
@@ -36,7 +36,7 @@ export default function Navbar() {
 							})
 						}
 					</div>
-						<ToggleThemeButton />
+					<ToggleThemeButton />
 				</nav>
 			</div>
 		</section>

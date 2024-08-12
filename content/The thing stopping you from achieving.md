@@ -1,0 +1,33 @@
+# The thing stopping you from achieving
+
+### Introduction
+  
+As the world progress towards rapid developments, most of us here are either flabbergasted or deeply anxious on how we shall perceive such progression. Whether it’s Artificial Intelligence (AI) in Computer Science or Quantum Computing in Computer Engineering/Physics, we see such advancements as threats to the status quo, which in our view, is the best situation for own lives.
+
+Because of this need of wanting to preserve the current situation, we fall into the abyss of self-denialism, comfort zone and the unescapable hell of perfectionism. That, in essence, is the only blocker to our growth and dreams, and not anything else.
+
+“What does self-denialism, comfort zone, and perfectionism all have in common?”, you may wonder. I’d say that all of the above attributes are a vicious triangle of: “GROWTH-AVOIDANCE TRIANGLE”.
+
+### Comfort Zone
+
+  
+The first pillar of this triangle is our endless desire to be in our own comfort zone. If we stick to our own ways, persist to our own views and never seeks to challenge such ways or views we’d be convenience ourselves that we reached the best form we could possibly ever imagine and there’s no need to **struggle** to strive for yet a better version. This growth-avoidance mechanism is exemplified in sticking to one programming language or framework, and even going to the extent of fighting for it, instead of embracing the fluidity and flexibility of of trying out different technology stacks (tech-stack) and learning different programming paradigms outside of your zone. This, however, doesn’t imply that you need to change your tech-stack in all of your projects as it may lead to counter-productive results, but to broaden your view and increase your knowledge in programming in general. It’s also worthy to mention that it’s far superior you focus on discovering **one, and only one** language/paradigm/framework at a time, stopping you from becoming a newbie of all trades and a master of none.
+
+### Perfectionism
+
+  
+Now that you have convinced yourself to explore outside of what you know, you would step into the second blocker of growth: **perfectionism**. As you learn something new, you would feel the urge to either be a master or drop out completely. You’d never opt to be, as anyone else, a long-time learner and a full-time student. I’ll break it out for you, no one is a master. Even those who you perceive as masters are mostly advanced students acknowledging that, they themselves, don’t know it all. A better view, in my honest opinion is to not care at all whether you are a master, an advanced student, an intermediate student or even a beginner. Strive to learn, to be curious, to explore and to fail miserably. Count these levels of mastery as an old-fashioned, mythical, hierarchical constructs putting a wall on our inner-child creativity and curiosity. What matters is that you learn, create, experiment and most importantly have fun doing whatever you want to pursue.
+
+### Self-denialism
+
+  
+As you strive to learn, whether you are a “beginner” or a “master”, you’d inevitably come across various acts amplifying your self-denialism of becoming better masquerading as googling “a better way to do X”.
+
+Take the perfect example of solving a mathematical problem or an algorithmic problem: You are learning algorithms and data structures (DSA). DSAs courses often includes heavy number of exercises testing out your problem-solving and overall analytical skills. You’d stumble upon a problem, take hours and hours trying to solve the problem and fail miserably at doing so. Now, failing is not just fine, it’s the best thing that could ever happen. When you fail, you learn why you’ve failed, and more importantly, you develop the mechanism/neuron-pathway/way to solve problems. The next time you are trying to solve harder and more ambiguous problems, you’d solve them the same way you solved the previous easy problems. By failing, you didn’t solve a problem, you developed a system by failing miserably.
+
+However, we’d kill this process of developing by failing through the continuous cycle of **start-stuck-search**. We’d start over a problem, get stuck in that problem for five minutes and eventually we’d search for the way to do it. By such act, we are confirming the thought of us not being competent or professional enough to solve the problem. I’m not saying that you should never google out stuff, but to excessively search every bit and byte of our solution without thinking for like 1 or 2 hours is not growth at all. The cycle, in my opinion, should look more like this: **start-stuck-fail-fail-solve-fail-fail-solve-fail-fail-solve-fail-fail-search-solve-finish**. You’d only search after thinking of every solution possible, and only then you could search for the missing parts in your solution. Remember that failing is never the equivalence of not being smart enough or not being competent, you brain is just tricking you take you back to your little comfort zone, which you should never do.
+
+### Conclusion
+
+  
+I think the best way to summarize this blog is to say: “learn, make mistakes while learning, and believe yourself while learning”. Explore different perspectives, make mistakes while exploring and believe in yourself while solving such mistakes. It’s harder than sitting at your own bubble and making perfect solutions by fully imitating others but the benefits are life-lasting.
