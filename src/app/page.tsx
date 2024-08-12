@@ -31,8 +31,8 @@ export default async function Home() {
 
 function Hero() {
 	return (
-		<section className="flex justify-between pt-2" id="#about">
-			<div className="prose prose-neutral dark:prose-invert">
+		<section className="flex flex-col md:flex-row items-center md:justify-between md:items-stretch pt-2" id="#about">
+			<div className="prose prose-neutral dark:prose-invert order-2 md:order-1">
 				<h2>👋 Hello, I{"'"}m</h2>
 				<h1 className="bg-gradient-to-tr bg-clip-text text-transparent from-primary-300 to-primary-400 head">
 					Abdullah Binsaad
@@ -54,7 +54,7 @@ function Hero() {
 					<ContactMe />
 				</div>
 			</div>
-			<div>
+			<div className='order-1 md:order-2 pb-5 md:pb-0'>
 				<Image
 					src="/person.jpg"
 					className="rounded-xl mb-3"
@@ -131,13 +131,13 @@ function ExperienceItem({
 	return (
 		<li>
 			<div className="flex gap-5 items-center">
-				<div className="not-prose rounded-full flex justify-center items-center h-10 w-10 border shadow-sm dark:bg-neutral-800 dark:border-neutral-700/50 dark:shadow-neutral-800/50 dark:ring-0">
+				<div className="not-prose rounded-full flex justify-center items-center md:h-10 md:w-10 h-15 w-15 border shadow-sm dark:bg-neutral-800 dark:border-neutral-700/50 dark:shadow-neutral-800/50 dark:ring-0">
 					<Image
 						alt={`${title} Icon`}
 						src={imgSrc}
-						height={20}
-						width={20}
-						className="h-7 w-7"
+						height={200}
+						width={200}
+						className="md:h-7 md:w-7 h-13 w-13"
 					/>
 				</div>
 				<dl>
