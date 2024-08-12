@@ -6,7 +6,7 @@ export default {
 		name: "Abdulalh Binsaad",
 		url: "http://abady.dev"
 	},
-	ogImage: "http://abady.dev/og.png",
+	ogImage: "http://abady.dev/person.jpg",
 	links: {
 		x: "https://x.com/ii_Abady",
 		linkedIn: "https://linkedin.com/in/abdullah-binsaad",
