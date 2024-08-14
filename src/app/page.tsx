@@ -192,9 +192,9 @@ function ProjectItem({
 				<div className="flex max-w-96 gap-3 flex-wrap grayscale hover:grayscale-0">
 					{...tech}
 				</div>
-				{link ? <Link href={link}>
+				{link && <Link href={link}>
 					<CircleArrowRight />
-				</Link> : ""}
+				</Link>}
 			</div>
 		</div>
 	);
