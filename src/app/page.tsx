@@ -9,7 +9,7 @@ import { CircleArrowRight } from 'lucide-react';
 import { truncateText, formatDate } from "@/lib/util";
 import Image from 'next/image';
 import { readdir } from 'node:fs/promises';
-import { Post } from '@/types';
+import type { Post } from '@/types';
 import Link from 'next/link';
 import projects from '@/config/projects.config';
 import siteConfig from '@/config/site.config';
@@ -77,8 +77,12 @@ function Experience() {
 					<ExperienceItem
 						imgSrc="hu.svg"
 						title="B.Sc of Computer Science at Hadhramout University"
-						description="Led engineering team at TypeScript"
-						years={[2024, 2024]}
+						description="
+						Mastered heavy computer science subjects including operating
+						systems, algorithms design and analysis, and computer organization 
+						and architecture.
+						"
+						years={[2019, 2024]}
 					/>
 				</ol>
 			</div>
@@ -151,9 +155,7 @@ function ExperienceItem({
 				<div className="ml-auto">
 					<time dateTime={`${years[0]}`}>{years[0]}</time>
 					<span className="mx-2">—</span>
-					<time dateTime={`${years[1]}`}>
-						{years[1] == new Date().getFullYear() ? 'Present' : years[1]}
-					</time>
+					<time dateTime={`${years[1]}`}>{years[1]}</time>
 				</div>
 			</div>
 		</li>
@@ -229,7 +231,7 @@ function BlogItem({
 
 function ContactMe() {
 	return (
-		<a href={siteConfig.links.mail}><button className="border rounded-sm border-neutral-500/30 shadow-sm px-5 py-1 hover:scale-105 transition-all duration-150">
+		<a href={siteConfig.links.mail}><button type='button' className="border rounded-sm border-neutral-500/30 shadow-sm px-5 py-1 hover:scale-105 transition-all duration-150">
 			Contact Me
 		</button></a>
 	);
@@ -237,7 +239,7 @@ function ContactMe() {
 
 function Resume() {
 	return (
-		<a href='/resume.pdf'><button className="border rounded-sm border-neutral-500/30 shadow-sm px-5 py-1 cursor-goto hover:scale-105 transition-all duration-150">
+		<a href='/resume.pdf'><button type='button' className="border rounded-sm border-neutral-500/30 shadow-sm px-5 py-1 cursor-goto hover:scale-105 transition-all duration-150">
 			Resume
 		</button></a>
 	);
