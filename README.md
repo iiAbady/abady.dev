@@ -1,2 +1,2 @@
 # My Portfolio
-Check it out: https://abady-dev.vercel.com
+Check it out: https://abady.dev
