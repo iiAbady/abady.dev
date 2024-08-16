@@ -17,6 +17,7 @@ import siteConfig from '@/config/site.config';
 
 export default async function Home() {
 	const posts = await getPosts();
+	console.log(posts[0])
 	return (
 		<main>
 			<div className='space-y-52'>
@@ -115,7 +116,7 @@ function Blog({ posts }: { posts: Post[] }) {
 		<section className="prose dark:prose-invert mt-12 max-w-full pt-2" id="blog">
 			<h1>✨ Blog</h1>
 			{posts.map((post, index) =>
-				<BlogItem key={index} content={post.brief} title={post.title} dateTime={new Date(post.publishDate)} readEstimate={post.readtime} fullLink={`/blog/${post.slug}`} />
+				<BlogItem key={index} brief={post.brief} title={post.title} dateTime={new Date(post.publishDate)} readEstimate={post.readtime} fullLink={`/blog/${post.slug}`} />
 			)}
 		</section>
 	);
@@ -205,13 +206,13 @@ function ProjectItem({
 function BlogItem({
 	dateTime,
 	title,
-	content,
+	brief,
 	fullLink,
 	readEstimate
 }: {
 	dateTime: Date;
 	title: string;
-	content: string;
+	brief: string;
 	fullLink: string;
 	readEstimate: string
 }) {
@@ -223,7 +224,7 @@ function BlogItem({
 				<span>~{readEstimate}</span>
 			</div>
 			<Link href={fullLink} className='no-underline'><h2 className='mt-1 mb-2'>{title}</h2></Link>
-			<p className='mt-0 mb-2'>{truncateText(content, 200)}</p>
+			<p className='mt-0 mb-2'>{brief}</p>
 			<Link href={fullLink} className='text-blue-500 no-underline hover:underline'>Continue Reading</Link>
 		</article>
 	);
